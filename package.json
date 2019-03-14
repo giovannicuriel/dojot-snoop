@@ -1,6 +1,6 @@
 {
   "name": "@giovannicuriel/dojot-snoop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A component that receives all messages from all subjects from all modules in dojot",
   "main": "build/index.js",
   "bin": "./build/index.js",
@@ -12,13 +12,13 @@
   "author": "Giovanni Curiel dos Santos (giovannicuriel@gmail.com)",
   "license": "GPL-3.0",
   "dependencies": {
-    "@dojot/dojot-module": "0.0.1-alpha.4",
+    "@dojot/dojot-module": "^0.0.1-beta",
     "express": "^4.16.3"
   },
   "devDependencies": {
     "@types/body-parser": "~1.17.0",
     "@types/express": "~4.16.0",
-    "typescript": "~3.0.3"
+    "typescript": "^3.3.0"
   },
   "repository": {
     "type": "git",
